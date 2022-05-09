@@ -21,7 +21,7 @@ jobs:
                   git status
                   cp /apps/dockerApps/nishauri_api-ssl/python.dockerfile /apps/github-workflows/mhealth-apps/nishauri_api/
                   cp /apps/dockerApps/nishauri_api-ssl/nginx.dockerfile /apps/github-workflows/mhealth-apps/nishauri_api/
-                  cp -r /apps/dockerApps/nishauri_api-ssl/dockerApps/docker /apps/github-workflows/mhealth-apps/nishauri_api/
+                  cp -r /apps/dockerApps/nishauri_api-ssl/docker /apps/github-workflows/mhealth-apps/nishauri_api/
                   docker-compose down
                   docker-compose up -d
 
